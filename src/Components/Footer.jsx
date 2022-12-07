@@ -4,8 +4,8 @@ function Footer() {
   return (
     <div>
       <hr className=" w-[90%] m-auto  bg-black text-[#D8D8D8] border-1 mt-[15%] mb-[5%] " />
-      <div className="w-[90%] m-auto flex ">
-        <div className="w-[20%] mr-14">
+      <div className="w-[90%] m-auto flex-coll lg:flex xl:flex md:flex gap-2">
+        <div className=" mr-14 lg:w-[20%] xl:w-[20%] md:w-[20%] sm:w-[50%] w-[50%] ">
           <h1 className="text-[24px] font-bold">Funiro.</h1>
           <ul className="text-[16px]">
             <li>

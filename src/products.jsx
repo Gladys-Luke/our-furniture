@@ -62,7 +62,81 @@ const Products = [
     type: " Minimalist flower pot",
     price: "Rp 500.000"
   },
+  {
+    name: "Potty",
+    img: '/assets/images/image-9.jpg',
+    type: " Minimalist flower pot",
+    price: "Rp 500.000"
+  },
+  {
+    name: "Potty",
+    img: '/assets/images/image-10.jpg',
+    type: " Minimalist flower pot",
+    price: "Rp 500.000"
+  },
+  {
+    name: "Potty",
+    img: '/assets/images/image-11.jpg',
+    type: " Minimalist flower pot",
+    price: "Rp 500.000"
+  },
+  {
+    name: "Potty",
+    img: '/assets/images/image-12.jpg',
+    type: " Minimalist flower pot",
+    price: "Rp 500.000"
+  },
+  {
+    name: "Potty",
+    img: '/assets/images/image-13.jpg',
+    type: " Minimalist flower pot",
+    price: "Rp 500.000"
+  },
+  {
+    name: "Potty",
+    img: '/assets/images/image-14.jpg',
+    type: " Minimalist flower pot",
+    price: "Rp 500.000"
+  },
+  {
+    name: "Potty",
+    img: '/assets/images/image-15.jpg',
+    type: " Minimalist flower pot",
+    price: "Rp 500.000"
+  },
+  {
+    name: "Potty",
+    img: '/assets/images/image-16.jpg',
+    type: " Minimalist flower pot",
+    price: "Rp 500.000"
+  },
+  {
+    name: "Potty",
+    img: '/assets/images/image-17.jpg',
+    type: " Minimalist flower pot",
+    price: "Rp 500.000"
+  },
+  {
+    name: "Potty",
+    img: '/assets/images/image-18.jpg',
+    type: " Minimalist flower pot",
+    price: "Rp 500.000"
+  },
+  {
+    name: "Potty",
+    img: '/assets/images/image-19.jpg',
+    type: " Minimalist flower pot",
+    price: "Rp 500.000"
+  },
+  {
+    name: "Potty",
+    img: '/assets/images/image-20.jpg',
+    type: " Minimalist flower pot",
+    price: "Rp 500.000"
+  },
  
+  
+   
 ];
 
 export default Products;

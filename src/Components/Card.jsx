@@ -3,8 +3,8 @@ import React from "react";
 function Card(props) {
   return (
     <div>
-      <div className="w-[80%] m-auto group relative hover:flex hover:items-center hover:justify-center">
-        <button className="hidden group-hover:block  absolute bg-white py-2 px-8 m-auto text-[#E89F71] font-bold">
+      <div className="w-[80%] m-auto group relative hover:flex hover:items-center hover:justify-center ">
+        <button className=" hidden  group-hover:block  absolute bg-white py-2 px-8 m-auto text-[#E89F71] font-bold cursor-pointer">
           Add to cart
         </button>
         <div className="bg-gray-100 hover:bg-gray-700">
