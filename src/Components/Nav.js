@@ -4,36 +4,36 @@ import { Transition } from "@headlessui/react";
 function Nav() {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <div>
+    <div className="bg-nav">
       <nav className="text-ash">
-        <div className=" ">
-          <div className="flex items-center justify-between h-16">
-            <div className="flex justify-between w-screen">
-              <h2 className="text-xl text-center text-black">Funiro</h2>
+        <div className="pt-8">
+          <div className="flex justify-between pl-16 mr-4 h-28">
+            <div className="flex justify-between w-screen ml-4 mr-4">
+              <h2 className="text-xl text-center text-black font-bold"> <a href="/" className="">Funiro</a></h2>
               <div className="flex-shrink-0"></div>
               <div className="hidden md:block">
-                <div className="ml-10 flex items-b space-x-4">
-                  <ul className="nav-links flex justify-between text-base xxs:absolute xxm:absolute xms:absolute">
+                <div className="ml-10 flex items-b space-x-4 ">
+                  <ul className="nav-links flex justify-between items-center text-base xxs:absolute xxm:absolute xms:absolute ">
                     <li>
-                      <a href="/" className="border-b-2 border-green">
-                        Product
+                      <a href="/product" className=" font-bold text-sm">
+                        Products
                       </a>
                     </li>
                     <li className="ml-6 mr-6">
-                      <input placeholder="search for minimalistic chair" className="w-96 border-2 p-1"></input>
+                      <input placeholder="search for minimalistic chair" className="w-96 p-1"></input>
                     </li>
                   </ul>
                 </div>
             
               </div>
               <div className="hidden md:block">
-              <ul className="flex justify-between lg:w-48 xxs:absolute xxm:absolute xms:absolute">
+              <ul className="flex justify-between items-center lg:w-48 xxs:absolute xxm:absolute xms:absolute">
                   <li className="">
-                      <a href="/signup">Cart icon</a>
+                      <a href="/cart">Cart icon</a>
                     </li>
 
                     <li className="">
-                      <a href="/signup">Avartar</a>
+                      <a href="/profile">Avartar</a>
                     </li>
                   </ul>
                   </div>
@@ -42,7 +42,7 @@ function Nav() {
               <button
                 onClick={() => setIsOpen(!isOpen)}
                 type="button"
-                className="bg-black inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-black focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-black focus:ring-white"
+                className="bg-product inline-flex items-center justify-center p-2 rounded-md text-white hover:text-button hover:bg-product focus:outline-none focus:ring-2 focus:ring-offset-1 focus:ring-white"
                 aria-controls="mobile-menu"
                 aria-expanded="false"
               >
@@ -98,7 +98,7 @@ function Nav() {
             <div className="md:hidden" id="mobile-menu">
               <div
                 ref={ref}
-                className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-black h-screen text-white"
+                className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-nav h-screen text-button"
               >
                 <ul className="nav-links flex flex-col items-center justify-between h-80 mt-10 font-medium ">
                   <li>
@@ -108,15 +108,11 @@ function Nav() {
                   </li>
 
                   <li>
-                    <a href="/signin">Product</a>
+                    <a href="/product">Product</a>
                   </li>
 
                   <li>
-                    <a href="/signup">Cart</a>
-                  </li>
-
-                  <li>
-                    <a href="/signup">Profile</a>
+                    <a href="/cart">Cart</a>
                   </li>
                 </ul>
               </div>
