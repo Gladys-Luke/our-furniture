@@ -6,9 +6,9 @@ import customersupport from "../Assets/images/customer-support.svg";
 
 function MiniHeader() {
   return (
-    <section className="flex justify-between items-center pl-20 pr-8 pt-14">
+    <section className="lg:flex lg:justify-between lg:items-center lg:pl-20 lg:pr-8 lg:pt-14 pl-6 grid grid-cols-2">
 
-      <figure className="flex justify-between w-56">
+      <figure className="lg:flex lg:justify-between w-56 grid grid-cols-1 mb-14 lg:mb-0">
         <img src={icon2} alt="icon" className="w-8" />
         <figcaption>
           <h3 className="text-lg font-bold">High Quality</h3>
@@ -18,7 +18,7 @@ function MiniHeader() {
         </figcaption>
       </figure>
 
-      <figure className="flex justify-between w-56">
+      <figure className="lg:flex lg:justify-between w-56 grid grid-cols-1 mb-14 lg:mb-0">
         <img src={icon1} alt="icon" className="w-8" />
         <figcaption>
           <h3 className="text-lg font-bold">Warrany Protection</h3>
@@ -26,7 +26,7 @@ function MiniHeader() {
         </figcaption>
       </figure>
 
-      <figure className="flex justify-between w-44">
+      <figure className="lg:flex lg:justify-between w-44 grid grid-cols-1 mb-6 lg:mb-0">
         <img src={icon3} alt="icon" className="w-8"/>
         <figcaption>
           <h3 className="text-lg font-bold">Free Shipping</h3>
@@ -34,7 +34,7 @@ function MiniHeader() {
         </figcaption>
       </figure>
 
-      <figure className="flex justify-between w-44">
+      <figure className="lg:flex lg:justify-between w-44 grid grid-cols-1 mb-6 lg:mb-0">
         <img src={customersupport} alt="icon" className="w-8"/>
         <figcaption>
           <h3 className="text-lg font-bold">24/7 Support</h3>

@@ -17,6 +17,8 @@ module.exports = {
   }, 
   width: {
     widthH: "27rem",
+    wt: "32rem",
+
 },
 
     },

@@ -7,10 +7,10 @@ import search from '../Assets/images/search.svg'
 function Nav() {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <div className="bg-nav pb-16">
+    <div className="bg-nav lg:pb-16">
       <nav className="text-ash">
         <div className="">
-          <div className="flex justify-between items-center pl-16 mr-4 h-28">
+          <div className="flex justify-between items-center pl-4 lg:pl-16 mr-8 h-28">
             <div className="flex justify-between w-screen ml-4 mr-4">
               <h2 className="text-xl text-center text-black font-bold"> <a href="/" className="">Funiro</a></h2>
               <div className="flex-shrink-0"></div>
@@ -118,9 +118,6 @@ function Nav() {
                     <a href="/cart">Cart</a>
                   </li>
 
-                  <li>
-                    <a href="/profile">Profile</a>
-                  </li>
                 </ul>
               </div>
             </div>
