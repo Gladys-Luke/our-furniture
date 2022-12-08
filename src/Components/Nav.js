@@ -1,13 +1,16 @@
 import React, { useState } from "react";
 import { Transition } from "@headlessui/react";
+import {BsCart2} from 'react-icons/bs'
+import Avatar from '../Assets/images/avatar.svg'
+import search from '../Assets/images/search.svg'
 
 function Nav() {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <div className="bg-nav">
+    <div className="bg-nav pb-16">
       <nav className="text-ash">
-        <div className="pt-8">
-          <div className="flex justify-between pl-16 mr-4 h-28">
+        <div className="">
+          <div className="flex justify-between items-center pl-16 mr-4 h-28">
             <div className="flex justify-between w-screen ml-4 mr-4">
               <h2 className="text-xl text-center text-black font-bold"> <a href="/" className="">Funiro</a></h2>
               <div className="flex-shrink-0"></div>
@@ -20,20 +23,20 @@ function Nav() {
                       </a>
                     </li>
                     <li className="ml-6 mr-6">
-                      <input placeholder="search for minimalistic chair" className="w-96 p-1"></input>
+                      <input placeholder="search for minimalistic chair" className="w-96 p-2"></input>
                     </li>
                   </ul>
                 </div>
             
               </div>
               <div className="hidden md:block">
-              <ul className="flex justify-between items-center lg:w-48 xxs:absolute xxm:absolute xms:absolute">
+              <ul className="flex justify-between items-center lg:w-20 xxs:absolute xxm:absolute xms:absolute">
                   <li className="">
-                      <a href="/cart">Cart icon</a>
+                      <a href="/cart"><BsCart2 className="w-4"/></a>
                     </li>
 
                     <li className="">
-                      <a href="/profile">Avartar</a>
+                      <a href="/profile"><img src = {Avatar} alt="profile" className="w-8"/></a>
                     </li>
                   </ul>
                   </div>
@@ -42,7 +45,7 @@ function Nav() {
               <button
                 onClick={() => setIsOpen(!isOpen)}
                 type="button"
-                className="bg-product inline-flex items-center justify-center p-2 rounded-md text-white hover:text-button hover:bg-product focus:outline-none focus:ring-2 focus:ring-offset-1 focus:ring-white"
+                className="bg-product inline-flex items-center justify-center p-2 h-10 rounded-md text-white hover:text-button hover:bg-product focus:outline-none focus:ring-2 focus:ring-offset-1 focus:ring-white"
                 aria-controls="mobile-menu"
                 aria-expanded="false"
               >
@@ -113,6 +116,10 @@ function Nav() {
 
                   <li>
                     <a href="/cart">Cart</a>
+                  </li>
+
+                  <li>
+                    <a href="/profile">Profile</a>
                   </li>
                 </ul>
               </div>

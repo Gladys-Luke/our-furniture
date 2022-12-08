@@ -9,14 +9,14 @@ module.exports = {
         nav: "#F9F1E7",
         button: "#E89F71",
         product: "#E5E5E5",
-        pops: "#ffffffb8"
-
+        pops: "#ffffffb8",
+        grey: "#898989"
     }, 
     height: {
       headerH: "28rem",
   }, 
   width: {
-    widthH: "25rem",
+    widthH: "27rem",
 },
 
     },
