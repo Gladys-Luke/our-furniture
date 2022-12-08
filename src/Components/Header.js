@@ -30,7 +30,7 @@ function Header() {
           <p className="text-sm font-semibold">Luxury big sofa 2-seat</p>
         </section>
         <section className="text-xl bg-pops lg:absolute lg:top-96 lg:right-48 h-12 lg:flex items-center px-1 hidden">
-          <h3 className=" flex justify-between lg:w-52 px-2 ">
+          <h3 className=" flex justify-between lg:w-52 px-2 font-semibold ">
             Rp 17.000.000<span>arrow</span>
           </h3>
         </section>
