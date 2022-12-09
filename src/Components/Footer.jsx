@@ -1,5 +1,5 @@
 import React from "react";
-
+import {IoIosSend} from 'react-icons/io'
 function Footer() {
   return (
     <div>
@@ -7,8 +7,8 @@ function Footer() {
       <div className="w-[90%] m-auto flex-coll lg:flex xl:flex md:flex gap-2">
         <div className=" mr-14 lg:w-[20%] xl:w-[20%] md:w-[20%] sm:w-[50%] w-[50%] ">
           <h1 className="text-[24px] font-bold">Funiro.</h1>
-          <ul className="text-[16px]">
-            <li>
+          <ul className="text-[16px] text-[#616161]">
+            <li className="">
               Worldwide furniture store, since 2020. We sell over 1000+ branded
               products on our website.
             </li>
@@ -20,7 +20,7 @@ function Footer() {
 
         <div className="w-[20%]">
           <h1 className="text-[24px] font-bold">Menu</h1>
-          <ul>
+          <ul className="text-[#616161]">
             <li>Products</li>
             <li>Rooms</li>
             <li>Inspirations</li>
@@ -31,7 +31,7 @@ function Footer() {
 
         <div className="w-[20%]">
           <h1 className="text-[24px] font-bold">Account</h1>
-          <ul>
+          <ul className="text-[#616161]">
             <li>My Account</li>
             <li>Checkout</li>
             <li>My Cart</li>
@@ -40,7 +40,7 @@ function Footer() {
         </div>
         <div className="w-[20%]">
           <h1 className="text-[24px] font-bold">Stay Connected</h1>
-          <ul>
+          <ul className="text-[#616161]">
             <li>Facebook</li>
             <li>Instagram</li>
             <li>Twitter</li>
@@ -52,13 +52,11 @@ function Footer() {
           <div className="flex">
             <input
               placeholder="Enter your email"
-              className="bg-[#F4F5F7] px-7 outline-none"
-            ></input>
-            <img
-              src="/assets/images/arrow.png"
-              alt=""
-              className="bg-[#E89F71] p-3 type-submit"
+              className="bg-[#F4F5F7] px-7  outline-none"
             />
+           <button className="bg-[#E89F71] p-2 m-1">
+            <IoIosSend color="white" size={25}/>
+           </button>
           </div>
         </div>
       </div>

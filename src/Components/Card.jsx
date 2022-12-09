@@ -3,7 +3,7 @@ import React from "react";
 function Card(props) {
   return (
     <div>
-      <div className="w-[80%] m-auto group relative hover:flex hover:items-center hover:justify-center ">
+      <div className="w-[100%] m-auto group relative hover:flex hover:items-center hover:justify-center ">
         <button className=" hidden  group-hover:block  absolute bg-white py-2 px-8 m-auto text-[#E89F71] font-bold cursor-pointer">
           Add to cart
         </button>
@@ -12,7 +12,7 @@ function Card(props) {
             <img
               src={props.img}
               alt=""
-              className="  hover:mix-blend-overlay "
+              className="  hover:mix-blend-overlay w-full "
             />
           </div>
           <div className="p-3 pb-6">

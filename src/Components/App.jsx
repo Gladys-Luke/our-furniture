@@ -1,8 +1,8 @@
 /*import React from 'react'
-import Products from '../Components/products'
+*/
+// import Products from '../Components/products'
 import Header from './Header'
 import Nav from './Nav'
-*/
 import React, {useEffect, useState}from 'react'
 import Card from "./Card"
 import Products from "../products";
@@ -21,7 +21,7 @@ function App() {
   }, [])
   
   return (
-    <div className=''>
+    <div>
       <Nav/>
       <Header/>
     <div>
@@ -35,7 +35,7 @@ function App() {
         data-aos="fade-up" 
         data-aos-easing="ease-out-cubic" 
         data-aos-duration="3000"  
-        className='grid lg:grid-cols-4 xl:grid-cols-4 md:grid-cols-2 sm:grid-cols-2 grid-cols-1 gap-4'>
+        className='grid lg:grid-cols-4 xl:grid-cols-4 md:grid-cols-2 sm:grid-cols-2 grid-cols-1 gap-4 px-16 '>
       {
         Products.slice(0, more).map((product, id) => (
         <Card 
@@ -57,7 +57,7 @@ function App() {
       <Furniture />
       <Footer />
     </div>
-   
+    </div>
   );
 }
 
