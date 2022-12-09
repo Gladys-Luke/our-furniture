@@ -1,3 +1,8 @@
+/*import React from 'react'
+import Products from '../Components/products'
+import Header from './Header'
+import Nav from './Nav'
+*/
 import React, {useEffect, useState}from 'react'
 import Card from "./Card"
 import Products from "../products";
@@ -16,6 +21,9 @@ function App() {
   }, [])
   
   return (
+    <div className=''>
+      <Nav/>
+      <Header/>
     <div>
       <h1 
         data-aos="fade-right"
