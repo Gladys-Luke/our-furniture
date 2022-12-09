@@ -49,12 +49,12 @@ function Footer() {
 
         <div className="w-[20%]">
           <h1 className="text-[24px] font-bold">Stay Updated</h1>
-          <div className="flex">
+          <div className="flex items-center">
             <input
               placeholder="Enter your email"
-              className="bg-[#F4F5F7] px-7  outline-none"
+              className="bg-[#F4F5F7] px-4 h-[40px] outline-none"
             />
-           <button className="bg-[#E89F71] p-2 m-1">
+           <button className="bg-[#E89F71] p-2 m-1 h-[40px]">
             <IoIosSend color="white" size={25}/>
            </button>
           </div>

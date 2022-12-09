@@ -3,16 +3,16 @@ import React from "react";
 function Card(props) {
   return (
     <div>
-      <div className="w-[100%] m-auto group relative hover:flex hover:items-center hover:justify-center ">
-        <button className=" hidden  group-hover:block  absolute bg-white py-2 px-8 m-auto text-[#E89F71] font-bold cursor-pointer">
+      <div className="w-[100%] group relative hover:flex hover:items-center hover:justify-center ">
+        <button className=" hidden  group-hover:block  absolute bg-white py-2 px-8 text-[#E89F71] font-bold cursor-pointer">
           Add to cart
         </button>
-        <div className="bg-gray-100 hover:bg-gray-700">
+        <div className="hover:bg-[#3a3a3a]">
           <div className="top">
             <img
               src={props.img}
               alt=""
-              className="  hover:mix-blend-overlay w-full "
+              className=" w-full hover:mix-blend-overlay hover:opacity-[0.72] "
             />
           </div>
           <div className="p-3 pb-6">

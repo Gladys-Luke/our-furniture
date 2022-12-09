@@ -29,7 +29,7 @@ function App() {
         data-aos="fade-right"
      data-aos-offset="300"
      data-aos-easing="ease-in-sine"
-        className="flex justify-center text-center p-10 text-3xl font-bold text-[#3A3A3A]">Our Products</h1>
+        className="flex justify-center text-center p-10 text-3xl font-bold text-[#3A3A3A] mt-16">Our Products</h1>
       
       <div 
         data-aos="fade-up" 
