@@ -1,5 +1,5 @@
 import React from "react";
-import {IoIosSend} from 'react-icons/io'
+import { IoIosSend } from "react-icons/io";
 function Footer() {
   return (
     <div>
@@ -54,9 +54,9 @@ function Footer() {
               placeholder="Enter your email"
               className="bg-[#F4F5F7] px-4 h-[40px] outline-none"
             />
-           <button className="bg-[#E89F71] p-2 m-1 h-[40px]">
-            <IoIosSend color="white" size={25}/>
-           </button>
+            <button className="bg-[#E89F71] p-2 m-1 h-[40px]">
+              <IoIosSend color="white" size={25} />
+            </button>
           </div>
         </div>
       </div>
