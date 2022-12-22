@@ -65,7 +65,7 @@ function Cart() {
           </button>
         </div>
       ))}
-      <div className="col-md-8"></div>
+      <div className="col-md-8 "></div>
       <div className="col-md-4">
         <div className="card card-body mt-3">
           <h4>
@@ -78,7 +78,7 @@ function Cart() {
           </h4>
           <hr />
           <Link to="/checkout">
-            <button className="bg-black text-white py-2 px-8">
+            <button className="bg-[#E89F71] rounded hover:shadow-xl text-white py-2 px-8">
               Go to checkout
             </button>
           </Link>
