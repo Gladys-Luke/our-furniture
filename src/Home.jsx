@@ -7,6 +7,9 @@ import Furniture from "./Components/furniture";
 import Footer from "./Components/Footer";
 import AOS from "aos";
 import "aos/dist/aos.css";
+// import Checkout from "../src/pages/Checkout"
+// import MiniHeader from "./Components/MiniHeader";
+// import { Link } from "react-router-dom";
 
 
 
@@ -39,7 +42,7 @@ function Home() {
         >
           {Products.slice(0, more).map((product, id) => (
             <Card
-              key={id}
+              key={product.id}
               product={product}
             />
           ))}
@@ -56,7 +59,7 @@ function Home() {
           </button>
         </div>
         <Furniture />
-
+        
         <Footer />
       </div>
     </div>

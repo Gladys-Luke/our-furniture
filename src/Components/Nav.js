@@ -26,9 +26,9 @@ function Nav() {
         <div className="">
           <div className="flex justify-between items-center pl-4 lg:pl-16 mr-8 h-28">
             <div className="flex justify-between w-screen ml-4 mr-4">
-              <h2 className="text-xl text-center text-black font-bold">
+              <h2 className="text-xl text-center font-bold">
                 {" "}
-                <a href="/" className="">
+                <a href="/" className=" text-[#000000] ">
                   Funiro
                 </a>
               </h2>
@@ -37,7 +37,7 @@ function Nav() {
                 <div className="ml-10 flex items-b space-x-4 ">
                   <ul className="nav-links flex justify-between items-center text-base xxs:absolute xxm:absolute xms:absolute ">
                     <li>
-                      <a href="/product" className=" font-bold text-sm">
+                      <a href="/product" className=" font-bold text-sm text-[#3A3A3A]">
                         Products
                       </a>
                     </li>
@@ -69,7 +69,7 @@ function Nav() {
                         {Object.keys(cart).map((item) => (
                           <div
                             key={cart[item]}
-                            className="flex gap-2 items-center text-white font-bold"
+                            className="flex gap-2 items-center text-white font-bold "
                           >
                             <span>
                               <img
@@ -78,8 +78,8 @@ function Nav() {
                                 className="h-[28px] w-[28px]"
                               />
                             </span>
-                            <span className="text-xs">{cart[item].name}</span>
-                            <span className="text-xs">{cart[item].price}</span>
+                            <span className="text-xs w-[50px]">{cart[item].name}</span>
+                            <span className="text-xs w-[50px]">RP{cart[item].price}</span>
                           </div>
                         ))}
                       </div>

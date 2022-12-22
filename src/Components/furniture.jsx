@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { Link } from "react-router-dom";
 
 function Furniture() {
   useEffect(() => {
@@ -9,7 +10,9 @@ function Furniture() {
   }, []);
 
   return (
+    
     <div data-aos="fade-up" className="w-[99%] m-auto">
+    
       <div className="flex flex-col justify-center text-center pt-10">
         <p>Share your setup with</p>
         <h1 className="font-bold text-xl">#FuniroFurniture</h1>

@@ -25,7 +25,7 @@ function Card({product}) {
             <h2 className="font-bold text-xl text-gray-700">{product.name}</h2>
             <p className="text-gray-500">{product.type}</p>
             <div className="flex gap-4">
-              <p className="font-bold text-gray-700">{product.price} </p>
+              <p className="font-bold text-gray-700">RP{product.price} </p>
               <span className="text-[#B0B0B0]">
                 <s>{product.old}</s>
               </span>
